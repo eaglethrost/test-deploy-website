@@ -107,6 +107,13 @@ export interface Testimonial {
   text: string;
 }
 
+export interface ProjectItem {
+  date: string;
+  link: string;
+  title: string;
+  content: JSX.Element;
+}
+
 /**
  * Contact section
  */

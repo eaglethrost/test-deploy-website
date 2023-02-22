@@ -35,6 +35,7 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
+  ProjectItem
 } from './dataDef';
 
 /**
@@ -286,6 +287,39 @@ export const testimonial: TestimonialSection = {
     },
   ],
 };
+
+export const projects: ProjectItem[] = [
+  {
+    date: 'April 2022 - June 2022',
+    link: 'https://github.com/eaglethrost/Social-Event-Planner',
+    title: 'Social Event Planner',
+    content: (
+      <p>
+        A social web application that allows users to create events, add them to a calender, invite other users, and sync calendars.
+      </p>
+    ),
+  },
+  {
+    date: 'April 2021 - May 2021',
+    link: 'https://github.com/eaglethrost/Classroom-Reservation',
+    title: 'Classroom Simulation Reservation',
+    content: (
+      <p>
+        A simulation of a classroom booking system written in C++ for a university course project, with an emphasis on object-oriented principles.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2020 - September 2020',
+    link: 'https://github.com/eaglethrost/Battleship',
+    title: 'Battleship',
+    content: (
+      <p>
+        A Battleship game where the player has to guess coordinates in a board to sink ships. The game runs in a terminal, displays the game board as ASCII characters, and features interactive dialogues with players.
+      </p>
+    ),
+  },
+];
 
 /**
  * Contact section
