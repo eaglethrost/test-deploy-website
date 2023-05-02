@@ -113,11 +113,15 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Python',
-        level: 6,
+        level: 7,
       },
       {
         name: 'SQL',
-        level: 5,
+        level: 7,
+      },
+      {
+        name: 'Javascript',
+        level: 7,
       },
       {
         name: 'C',
@@ -125,10 +129,6 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'R',
-        level: 5,
-      },
-      {
-        name: 'Javascript',
         level: 5,
       },
       {
