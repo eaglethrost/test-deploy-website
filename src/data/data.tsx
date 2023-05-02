@@ -238,6 +238,17 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'March 2023 - Present',
+    location: 'Australian Institute of Machine Learning',
+    title: 'Research Intern',
+    content: (
+      <div>
+        <li>Designed and implemented a program to decompose complex instructions into simpler subtasks for robots</li>
+        <li>Used PyTorch, Stanza, and GPT3.5 to create a natural language processing model that improves the accuracy of the instruction decomposition by 40%</li>
+      </div>
+    ),
+  },
+  {
     date: 'December 2022 - February 2023',
     location: 'Equnix Business Solutions',
     title: 'Software Developer Intern',
@@ -289,6 +300,16 @@ export const testimonial: TestimonialSection = {
 };
 
 export const projects: ProjectItem[] = [
+  {
+    date: 'March 2023',
+    link: 'https://tinnamchoi.github.io/unihack-2023/',
+    title: 'The Sound of Personality',
+    content: (
+      <p>
+        A web application predicts a user’s MBTI from their music preferences. Preference is obtained from the user’s Spotify account or a music preference quiz. Submission for UNIHACK 2023 
+      </p>
+    ),
+  },
   {
     date: 'April 2022 - June 2022',
     link: 'https://github.com/eaglethrost/Social-Event-Planner',
